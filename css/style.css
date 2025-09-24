@@ -1,0 +1,94 @@
+/* reset margin ,padding */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* start styling body */
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Arial, sans-serif;
+}
+/* end styling body */
+/* start styling header */
+header {
+    background-color: rgb(39, 35, 35);
+    padding: 10px;
+}
+.logo{
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+}
+a{
+    text-decoration-line: none;
+    margin:5px;
+    color: white;
+}
+a:hover
+{
+    color: red;
+}
+/* end styling header */
+/* start styling background section */
+.background{
+    background: url("../images/Gym.jpg") no-repeat center center/cover ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.content1{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content1 h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+/* end styling background section */
+/* start styling main section */
+main{
+    padding: 40px 20px;
+    margin: 30px;
+}
+.Programs-title {
+    color: red;
+    margin-bottom: 20px;
+}
+.Programs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.p-title {
+    color: red;
+    margin-bottom: 10px;
+}
+.p-content{
+    background-color: rgb(39, 35, 35);
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+}
+/* end styling main section */
+/* start styling contact section */
+.contact{
+    margin: 40px;
+}
+.c-title{
+  color: red;
+    margin-bottom: 10px;
+}
+/* end styling contact section */
+/*  start styling footer  section*/
+footer{
+  padding: 25px;
+  background-color: rgb(39, 35, 35);
+}
+/* end styling footer section */
+
